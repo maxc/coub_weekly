@@ -5,7 +5,7 @@ dow=$((dom % 7))
 week=$(date +%V)
 year=$(date +%Y)
 
-if [ "$dow" -lt 5 ]
+if [ "$dow" -lt 4 ]
 then
   week=$(expr $week - 2)
 else
